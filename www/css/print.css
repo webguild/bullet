@@ -1,0 +1,117 @@
+/* Ticket_print.html */
+body.print {
+	background: #fff;
+	-webkit-print-color-adjust: exact;
+}
+
+.print .poup-info-block .title {
+    background-color: #ededed !important;
+    -webkit-print-color-adjust: exact; 
+}
+
+.print .poup-info-block .title span {
+	color: #000000 !important;
+}
+
+.print .poup-info-block .sub-title {
+	background: #ffffff;
+}
+
+.print .poup-info-block .sub-title .icon {
+    border-right: 1px dashed #aaaaaa;
+}
+
+.print .poup-info-block .sub-title .gray {
+    color: #999999;
+}
+
+.print .poup-info-block .info-block {
+	background: #ededed;
+}
+
+.print .poup-info-block .col-3 {
+	background: #f1f1f1;
+}
+
+.print .poup-info-block .col-1 ul li {
+	color: #999999;
+}
+
+.print .poup-info-block .col-2 .date span,
+.print .poup-info-block .info-block .inform span,
+.print .poup-info-block .col-3 span {
+    color: #999999;
+}
+
+.print .poup-info-block .col-1 {
+    background: url("../img/marshroot2.png") no-repeat scroll 103px 14px transparent;
+}
+
+.print .poup-info-block .info-block-night {
+    background: url("../img/marshroot2.png") no-repeat scroll 131px -533px #e3e3e3;
+    border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid #ffffff;
+}
+
+.print .info-block-night .col-2 span, .print .info-block-night .col-4 span {
+    color: #999999;
+    display: block;
+}
+
+.print .help-info p.last {
+    background: url("../img/bag2.png") no-repeat scroll 0 0 transparent;
+}
+
+.print .help-info {
+    background: #ededed;
+    border-top: 1px solid #fff;
+    padding: 20px 27px;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.print .poup-info-block .info-block.last {
+    padding-top: 0;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.print .poup-info-block .passenger-info .title {
+    height: 65px;
+    line-height: 63px;
+    color: #000000;
+    background: #f6f7f8;
+}
+
+.print .table-info {
+    background: #ffffff;
+}
+
+.print .info-box {
+	margin: 0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow:    none;
+	box-shadow:         none;
+}
+
+.print .help-info.l {
+	-webkit-box-shadow: none;
+	-moz-box-shadow:    none;
+	box-shadow:         none;
+	border-top: 1px solid #b5b5b5;
+	padding-bottom: 15px;
+}
+
+.print .help-info.l p.last a {
+	color: #000000;
+}
+
+.print .help-info.l p.last {
+	background: url(../img/info2-2.png) no-repeat 0 0;
+	padding-bottom: 10px;
+}
+
+.print .poup-info-block .sub-title,
+.print .poup-info-block .info-block .inform {
+    -webkit-box-shadow: none;
+	-moz-box-shadow:    none;
+	box-shadow:         none;
+}

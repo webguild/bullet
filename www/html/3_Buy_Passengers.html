@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>index page</title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css" media="all" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.placeholder.min.js"></script>
+	<script type="text/javascript" src="/js/scripts.js"></script>
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script type='text/javascript' src="/js/jquery.placeholder.min.js"></script>
+		<script type="text/javascript">
+			jQuery(function(){
+				jQuery('input[placeholder], textarea[placeholder]').placeholder();
+			});
+		</script>
+	<![endif]-->
+</head>
+<body class="inner order">
+	<div class="cloud-3"></div>
+	<div class="cloud-4"></div>
+	<header>
+		<div class="box">
+			<div class="navi-bar">
+				<div class="title"><a href="#"><span class="l"></span><span class="r">Найденные билеты</span></a></div>
+				<ul class="nav">
+					<li class="active"><a href="#">Отмеченное</a> <span>(1)</span></li>
+					<li><a href="#">Мой Билет-он-лайн</a></li>
+				</ul>
+			</div>
+			<div class="title-bar">Оформление брони <a href="#" class="logo"><img src="/img/logo-3.png" alt="" /></a></div>
+		</div>
+	</header>
+	<div class="box container">
+		<!-- хлебные крошки -->
+		<div class="breadcrumbs">
+			<ul>
+				<li>1. Оформление брони <span>→</span></li>
+				<li><a href="#">2. Программы лояльности</a><span>→</span></li>
+				<li><a href="#">3. Оплата</a></li>
+			</ul>
+		</div>
+		<!-- конец крошкам -->
+		<!-- попап окно инфо о перелете -->
+	<div class="poup-info-block">
+		<div class="title">
+			<span>Ваш билет</span>
+			<ul class="tabs">
+				<li class="active">Кратко</li>
+				<li>Подробно</li>
+			</ul>
+		</div>
+		<div class="bilet-info">
+			<table>
+				<tbody>
+					<tr class="first">
+						<td class="img"><img alt="" src="/img/samalet.png"></td>
+						<td class="marshroot">Москва <span>Внуково (VKO)</span></td>
+						<td class="time">14:55 <span>10 мар, <strong>ср</strong></span></td>
+						<td class="race">Прямой рейс</td>
+						<td class="marshroot back">Санкт-Петербург <span>Пулково (LED)</span></td>
+						<td class="time">14:55 <span>10 мар, <strong>ср</strong></span></td>
+						<td class="company"><img src="/img/logo1.gif" alt="" />Общее время  <span>2 ч 40 мин</span></td>
+					</tr>
+					<tr class="last">
+						<td class="img"><img alt="" src="/img/samalet-2.png"></td>
+						<td class="marshroot">Санкт-Петербур <span>Пулково (LED)</span></td>
+						<td class="time">14:55 <span>10 мар, <strong>ср</strong></span></td>
+						<td class="race"><span>1 пересадка</span><a class="night" href="#">9 ч 35 мин</a></td>
+						<td class="marshroot back">Санкт-Петербург <span>Пулково (LED)</span></td>
+						<td class="time">14:55 <span>10 мар, <strong>ср</strong></span></td>
+						<td class="company"><img src="/img/logo2.gif" alt="" />Общее время  <span>2 ч 40 мин</span></td>
+					</tr>
+				</tbody>
+			</table>   
+		</div>
+		
+		<div class="help-info no-border">
+			<p>Частично возвратный билет <span class="help">help</span> Время в пунктах вылета и прилета местное</p>
+			<p class="last"><span>1 багаж на одного пассажира до 20 кг бесплатно.</span> Более подробную информацию о багаже вы сможете найти на сайте <a href="#">Lufthansa</a> и <a href="#">Swiss Air.</a></p>
+		</div>
+		
+		<!-- данные покупателя -->
+		<div class="next-box">
+		<div class="user-info">
+			<div class="title">Данные покупателя</div>
+			<div class="info-box">
+				<form action="" method="post">
+					<p class="first"><input type="text" name="" id="" placeholder="Электронная почта" /><span class="desc">Для отправки вам электронного билета</span></p>
+					<p><input type="text" name="" id="" placeholder="+7" /><span class="desc">Контактный телефон для связи</span></p>
+					<p class="last"><input class="buttom-style" type="submit" value="Я регистрировался у вас" /><span class="desc">Если вы покупали у нас билет раньше мы сможем использовать<br> ранее введенные вами данные, чтобы не заполнять их снова.</span></p>
+				</form>
+			</div>
+		</div>
+		<!-- данные пассажиров -->
+		<div class="passenger-info">
+			<div class="title">Данные пассажиров</div>
+			<div class="info-box">
+				<div class="table-info">
+					<table>
+						<thead>
+							<tr>
+								<th></th>
+								<th>Пол</th>
+								<th>Фамилия</th>
+								<th>Имя</th>
+								<th>Дата рождения</th>
+								<th>Гражданство</th>
+								<th>Серия и № документа</th>
+								<th>Действителен до <a href="#"><img src="/img/help.png" alt="" class="help-icon" /></a></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1. Взрослый<br><span class="checkbox"><input type="checkbox" name="" id="" /><label>Бонусная карта</label></span> </td>
+								<td class="white img"><img src="/img/w.png" alt="" /></td>
+								<td class="white uppercase"><input type="text" name="" id="" size="7" /></td>
+								<td class="white uppercase"><input type="text" name="" id="" size="5" /></td>
+								<td class="white"><input type="text" name="" id="" size="5" /></td>
+								<td class="white">Россия</td>
+								<td class="white"><input type="text" name="" id="" size="4" /></td>
+								<td class="white"><input checked type="checkbox" class="checkbox" name="" id="" /><label>06.04.2020</label></td>
+							</tr>
+		
+	
+						</tbody>
+					</table>
+					<p><input class="buttom-style" type="submit" value="Добавить пассажира" /></p>
+				</div>
+			</div>
+			<div class="bottoms-bar">
+				<div class="col-l"><input type="checkbox" name="" id="" /><label>С <a href="#">условиями договора</a> и <a href="#">правилами тарифа</a> ознакомлен</label></div>
+				<div class="col-r">
+					<p><input type="submit" value="Забронировать" /></p>
+					<div class="price">14 960 <span>руб</span></div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<!-- конец -->
+	</div>
+	<footer>
+		<div class="box">
+			<div class="col-l">
+				<div class="copiryng">© 2012 ООО «Агентство Билет Онлайн»</div>
+				<nav>
+					<a href="#">Контактная информация</a>
+					<a href="#">Условия использования</a>
+					<a href="#">Вопросы и ответы</a>
+					<a href="#">Оставить отзыв</a>
+				</nav>
+			</div>
+			<div class="payment">
+				<p>Мы принимаем к оплате</p>
+				<img src="/img/payment.png" alt="" />
+			</div>
+		</div>
+	</footer>
+	<!-- фон затемнения -->
+	<div class="overlay" style="display:none;"></div>
+	<!-- попап формы сайта -->
+	<!-- форма входа -->
+	<div class="poup-form login" style="display:none;">
+		<span class="top"></span>
+		<div class="title">Вход <a href="#" class="nav-link">Регистрация</a></div>
+		<form action="#" method="post">
+			<p><input type="email" name="" id="" placeholder="Электронная почта" /></p>
+			<p class="last"><input type="password" class="password" name="" id="" placeholder="Пароль" /></p>
+			<p><input type="submit" value="Войти" /></p>
+			<a href="#" class="lost-pass">Забыли пароль?</a>
+		</form>
+	</div>
+	<!-- форма регистрации -->
+	<div class="poup-form register" style="display:none;">
+		<span class="top"></span>
+		<div class="title">Регистрация <a href="#" class="nav-link-login">Вход</a></div>
+		<form action="" method="post">
+			<p><input type="email" name="" id="" placeholder="Электронная почта" /></p>
+			<p class="last"><input type="password" class="password" name="" id="" placeholder="Пароль" /></p>
+			<p class="last"><input type="submit" value="Зарегистрироваться" /></p>
+		</form>
+		<div class="desc">Зарегистриованные пользователи могут не заполнять формы по 100 раз и имеют другие приемущества регистрации.</div>
+	</div>
+	<!-- форма забыл пароль -->
+	<div class="poup-form pass" style="display:none;">
+		<span class="top"></span>
+		<div class="title">Забыли пароль? <a href="#" class="nav-link-login">Вход</a></div>
+		<form action="" method="post">
+			<p class="last"><input type="email" name="" id="" placeholder="Электронная почта" /></p>
+			<input type="submit" value="Восстановить" />
+		</form>
+	</div>
+	</body>
+</html>

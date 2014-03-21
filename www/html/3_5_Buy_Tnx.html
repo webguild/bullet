@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>index page</title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css" media="all" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.placeholder.min.js"></script>
+	<script type="text/javascript" src="/js/scripts.js"></script>
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script type='text/javascript' src="/js/jquery.placeholder.min.js"></script>
+		<script type="text/javascript">
+			jQuery(function(){
+				jQuery('input[placeholder], textarea[placeholder]').placeholder();
+			});
+		</script>
+	<![endif]-->
+</head>
+<body class="inner order">
+	<div class="cloud-3"></div>
+	<div class="cloud-4"></div>
+	<header>
+		<div class="box">
+			<div class="navi-bar">
+				<div class="title"><a href="#"><span class="l"></span><span class="r">Найденные билеты</span></a></div>
+				<ul class="nav">
+					<li class="active"><a href="#">Отмеченное</a> <span>(1)</span></li>
+					<li><a href="#">Мой Билет-он-лайн</a></li>
+				</ul>
+			</div>
+			<div class="title-bar">Оплата <a href="#" class="logo"><img src="/img/logo-3.png" alt="" /></a></div>
+		</div>
+	</header>
+	<div class="box container">
+		<!-- хлебные крошки -->
+		<div class="breadcrumbs">
+			<ul>
+				<li><a href="#">1. Оформление брони</a> <span>→</span></li>
+				<li><a href="#">2. Программы лояльности</a><span>→</span></li>
+				<li>3. Оплата</li>
+			</ul>
+		</div>
+		<!-- конец крошкам -->
+		<!--бар опциф-->
+		<div class="bar-options">
+			<ul>
+				<li>Предприятие <span>Bilet Online</span></li>
+				<li>Номер заказа  <span>1231235345345</span></li>
+				<li>Сумма платежа <span>17 007 RUB (17 007 RUB)</span></li>
+			</ul>
+		</div>
+		<!--конец бара-->
+	<!-- попап окно инфо о перелете -->
+	<div class="poup-info-block">
+		
+		
+		<!-- программа лояльности -->
+		<div class="promo-program thx">
+			<div class="title"><span>Оплата баллами «Спасибо»</span></div>
+			<form action="" method="post">
+				<ul>
+					<li><input type="radio" name="" id="" checked /><label>Использовать баллы</label></li>
+					<li class="active"><input type="radio" name="" id="" /><label>Оплатить все по карте</label></li>
+				</ul>
+				<div class="promo-code">
+					<div class="col-2">
+						<p>Вы можете оплатить<br> часть покупки<br> бонусными баллами.</p>
+					</div>
+					<label>Списать</label>
+					<input type="text" name="" id="" class="form-text"/>
+					<label>баллов</label>
+				</div>
+				<div class="desc">Если не хотите использовать быллы выберите вариант <br> <a href="#">оплатить все по карте.</a></div>
+			</form>
+			
+		</div>
+		<!-- конец программы -->
+			<div class="bottoms-bar no-margin">
+				<div class="col-r one">
+					<p><input type="submit" value="Оплатить" /></p>
+					<div class="price">14 960 <span>руб,</span> 5 <span>баллов</span> </div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<!-- конец -->
+	</div>
+	<footer>
+		<div class="box">
+			<div class="col-l">
+				<div class="copiryng">© 2012 ООО «Агентство Билет Онлайн»</div>
+				<nav>
+					<a href="#">Контактная информация</a>
+					<a href="#">Условия использования</a>
+					<a href="#">Вопросы и ответы</a>
+					<a href="#">Оставить отзыв</a>
+				</nav>
+			</div>
+			<div class="payment">
+				<p>Мы принимаем к оплате</p>
+				<img src="/img/payment.png" alt="" />
+			</div>
+		</div>
+	</footer>
+	<!-- фон затемнения -->
+	<div class="overlay" style="display:none;"></div>
+	<!-- попап формы сайта -->
+	<!-- форма входа -->
+	<div class="poup-form login" style="display:none;">
+		<span class="top"></span>
+		<div class="title">Вход <a href="#" class="nav-link">Регистрация</a></div>
+		<form action="#" method="post">
+			<p><input type="email" name="" id="" placeholder="Электронная почта" /></p>
+			<p class="last"><input type="password" class="password" name="" id="" placeholder="Пароль" /></p>
+			<p><input type="submit" value="Войти" /></p>
+			<a href="#" class="lost-pass">Забыли пароль?</a>
+		</form>
+	</div>
+	<!-- форма регистрации -->
+	<div class="poup-form register" style="display:none;">
+		<span class="top"></span>
+		<div class="title">Регистрация <a href="#" class="nav-link-login">Вход</a></div>
+		<form action="" method="post">
+			<p><input type="email" name="" id="" placeholder="Электронная почта" /></p>
+			<p class="last"><input type="password" class="password" name="" id="" placeholder="Пароль" /></p>
+			<p class="last"><input type="submit" value="Зарегистрироваться" /></p>
+		</form>
+		<div class="desc">Зарегистриованные пользователи могут не заполнять формы по 100 раз и имеют другие приемущества регистрации.</div>
+	</div>
+	<!-- форма забыл пароль -->
+	<div class="poup-form pass" style="display:none;">
+		<span class="top"></span>
+		<div class="title">Забыли пароль? <a href="#" class="nav-link-login">Вход</a></div>
+		<form action="" method="post">
+			<p class="last"><input type="email" name="" id="" placeholder="Электронная почта" /></p>
+			<input type="submit" value="Восстановить" />
+		</form>
+	</div>
+	</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>index page</title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css" media="all" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.placeholder.min.js"></script>
+	<script type="text/javascript" src="/js/scripts.js"></script>
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script type='text/javascript' src="/js/jquery.placeholder.min.js"></script>
+		<script type="text/javascript">
+			jQuery(function(){
+				jQuery('input[placeholder], textarea[placeholder]').placeholder();
+			});
+		</script>
+	<![endif]-->
+</head>
+<body class="inner order help tabs">
+	<div class="cloud-3"></div>
+	<div class="cloud-4"></div>
+	<header>
+		<div class="box">
+			<div class="navi-bar">
+				<div class="title"><a href="#"><span class="l"></span><span class="r">Поиск авиабилетов</span></a></div>
+				<ul class="nav">
+					<li class="active"><a href="#">Отмеченное</a> <span>(1)</span></li>
+					<li><a href="#">Мой Билет-он-лайн</a></li>
+				</ul>
+			</div>
+			<div class="title-bar">Вопросы и ответы<a href="#" class="logo"><img src="/img/logo-3.png" alt="" /></a></div>
+		</div>
+	</header>
+	<div class="box container">
+		<!-- попап окно инфо о перелете -->
+		<div class="poup-info-block">
+			<!-- табы -->
+			<ul class="tabs-bar">
+				<li class="active"><span>Помощь в использовании сервиса</span><div class="cover"></div></li>
+				<li><span>Общие вопросы</span></li>
+				<!--<li class="active"><div class="cover-l"></div><span>Общие вопросы</span><div class="cover"></div></li>-->
+			</ul>
+			<!-- конец табов -->
+			<!-- контент -->
+			<div class="content">
+				<div class="title open"><span>Как забронировать авиабилет?</span></div>
+				<div class="question open">
+					<div class="text">
+						<div class="s-title">1. Выберите маршрут и даты отправления</div>
+						<p>На главной странице нашего сайта выберите закладку «Авиабилеты». Сначала Вам необходимо выбрать желаемый маршрут. Для этого введите в предоставленные поля названия пунктов вылета и прилёта.</p>
+						<p>Затем выберите необходимую дату отправления в левом календаре. Если Вам необходим обратный перелёт, выберите его дату в правом календаре; если необходим билет только в одну сторону – нажмите на крестик рядом с синим овалом.</p>
+						<p><img src="/img/01.jpg" alt="" /></p>
+						<div class="left-img">
+							<div style="float:left;"><img src="/img/02.jpg" alt="" /></div>
+							<p>После этого укажите необходимое количество пассажиров, максимальное число которых не должно превышать 6 человек (не считая детей до 2 лет). 
+С одним взрослым пассажиром может следовать только один ребёнок до 2 лет. Затем выберите класс обслуживания и нажмите кнопку «Поиск». Через несколько секунд перед Вами появится новое окно с результатами поиска.</p>
+						</div>
+						<div class="help-menu">
+							<span>Информация была для вас полезной?</span>
+							<ul>
+								<li><a href="#">Да</a></li>
+								<li><a href="#">Нет</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="title"><span>Как забронировать авиабилет?</span></div>
+				<div class="title"><span>Как оплатить билет?</span></div>
+				<div class="title"><span>Как читать электронный авиабилет?</span></div>
+			</div>
+			
+		</div>
+	</div>
+	<!-- конец -->
+	<footer>
+		<div class="box">
+			<div class="col-l">
+				<div class="copiryng">© 2012 ООО «Агентство Билет Онлайн»</div>
+				<nav>
+					<a href="#">Контактная информация</a>
+					<a href="#">Условия использования</a>
+					<a href="#">Вопросы и ответы</a>
+					<a href="#">Оставить отзыв</a>
+				</nav>
+			</div>
+			<div class="payment">
+				<p>Мы принимаем к оплате</p>
+				<img src="/img/payment.png" alt="" />
+			</div>
+		</div>
+	</footer>
+	<!-- фон затемнения -->
+	<div class="overlay" style="display:none;"></div>
+	<!-- попап формы сайта -->
+	<!-- форма входа -->
+	<div class="poup-form login" style="display:none;">
+		<span class="top"></span>
+		<div class="title">Вход <a href="#" class="nav-link">Регистрация</a></div>
+		<form action="#" method="post">
+			<p><input type="email" name="" id="" placeholder="Электронная почта" /></p>
+			<p class="last"><input type="password" class="password" name="" id="" placeholder="Пароль" /></p>
+			<p><input type="submit" value="Войти" /></p>
+			<a href="#" class="lost-pass">Забыли пароль?</a>
+		</form>
+	</div>
+	<!-- форма регистрации -->
+	<div class="poup-form register" style="display:none;">
+		<span class="top"></span>
+		<div class="title">Регистрация <a href="#" class="nav-link-login">Вход</a></div>
+		<form action="" method="post">
+			<p><input type="email" name="" id="" placeholder="Электронная почта" /></p>
+			<p class="last"><input type="password" class="password" name="" id="" placeholder="Пароль" /></p>
+			<p class="last"><input type="submit" value="Зарегистрироваться" /></p>
+		</form>
+		<div class="desc">Зарегистриованные пользователи могут не заполнять формы по 100 раз и имеют другие приемущества регистрации.</div>
+	</div>
+	<!-- форма забыл пароль -->
+	<div class="poup-form pass" style="display:none;">
+		<span class="top"></span>
+		<div class="title">Забыли пароль? <a href="#" class="nav-link-login">Вход</a></div>
+		<form action="" method="post">
+			<p class="last"><input type="email" name="" id="" placeholder="Электронная почта" /></p>
+			<input type="submit" value="Восстановить" />
+		</form>
+	</div>
+	</body>
+</html>
